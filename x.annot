@@ -1,0 +1,151 @@
+"x.ml" 1 0 4 "x.ml" 1 0 5
+type(
+  int
+)
+ident(
+  def x "x.ml" 2 10 10 "x.ml" 1 0 -1
+)
+"x.ml" 1 0 8 "x.ml" 1 0 9
+type(
+  int
+)
+"x.ml" 2 10 14 "x.ml" 2 10 15
+type(
+  int
+)
+ident(
+  def y "x.ml" 3 20 20 "x.ml" 1 0 -1
+)
+"x.ml" 2 10 18 "x.ml" 2 10 19
+type(
+  int
+)
+"x.ml" 3 20 24 "x.ml" 3 20 25
+type(
+  int -> int
+)
+ident(
+  def f "x.ml" 5 38 38 "x.ml" 1 0 -1
+)
+"x.ml" 3 20 26 "x.ml" 3 20 27
+type(
+  int
+)
+ident(
+  def x "x.ml" 4 30 32 "x.ml" 4 30 37
+)
+"x.ml" 4 30 32 "x.ml" 4 30 33
+type(
+  int
+)
+ident(
+  int_ref x "x.ml" 3 20 26 "x.ml" 3 20 27
+)
+"x.ml" 4 30 34 "x.ml" 4 30 35
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"x.ml" 4 30 36 "x.ml" 4 30 37
+type(
+  int
+)
+ident(
+  int_ref y "x.ml" 2 10 14 "x.ml" 2 10 15
+)
+"x.ml" 4 30 32 "x.ml" 4 30 37
+type(
+  int
+)
+"x.ml" 5 38 42 "x.ml" 5 38 43
+type(
+  int -> int
+)
+ident(
+  def g "x.ml" 8 59 59 "x.ml" 1 0 -1
+)
+"x.ml" 5 38 44 "x.ml" 5 38 45
+type(
+  int
+)
+ident(
+  def y "x.ml" 6 48 50 "x.ml" 6 48 57
+)
+"x.ml" 6 48 50 "x.ml" 6 48 51
+type(
+  int -> int
+)
+ident(
+  int_ref f "x.ml" 3 20 24 "x.ml" 3 20 25
+)
+"x.ml" 6 48 52 "x.ml" 6 48 53
+type(
+  int
+)
+ident(
+  int_ref x "x.ml" 1 0 4 "x.ml" 1 0 5
+)
+"x.ml" 6 48 50 "x.ml" 6 48 53
+call(
+  stack
+)
+type(
+  int
+)
+"x.ml" 6 48 54 "x.ml" 6 48 55
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"x.ml" 6 48 56 "x.ml" 6 48 57
+type(
+  int
+)
+ident(
+  int_ref y "x.ml" 5 38 44 "x.ml" 5 38 45
+)
+"x.ml" 6 48 50 "x.ml" 6 48 57
+type(
+  int
+)
+"x.ml" 8 59 63 "x.ml" 8 59 65
+type(
+  unit
+)
+"x.ml" 9 68 70 "x.ml" 9 68 79
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"x.ml" 9 68 80 "x.ml" 9 68 93
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"x.ml" 9 68 95 "x.ml" 9 68 98
+type(
+  string
+)
+"x.ml" 9 68 100 "x.ml" 9 68 103
+type(
+  string
+)
+"x.ml" 9 68 94 "x.ml" 9 68 104
+type(
+  string list
+)
+"x.ml" 9 68 70 "x.ml" 9 68 104
+call(
+  stack
+)
+type(
+  unit
+)

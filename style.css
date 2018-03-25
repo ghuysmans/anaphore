@@ -1,0 +1,8 @@
+a {text-decoration: none}
+pre {line-height: 1.4em}
+.ext {font-style: italic}
+.def {border: 1px solid grey}
+.ref {border: 1px dashed grey}
+.def, .ref {font-weight: bold}
+.id {display: none}
+body.id .id {display: inline}
